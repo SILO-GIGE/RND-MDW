@@ -1,0 +1,19 @@
+[ 깃허브 사용법 ]
+
+밀라노 깃허브 폴더:   MDW
+폴더안에 들어가서 마우스 오른쪽 클릭
+->Open Git Bash Here 클릭(터미널창 열림)
+
+STEP1. (무조건 처음해줘야함)
+git pull origin main
+
+STEP2. (파일올릴때)
+git add .
+(경고메세지 무시해도됨.)
+
+STEP3. 
+git commit -m "메세지입력"
+
+STEP4. 
+git push origin main
+(파일이 올라갔음.)
