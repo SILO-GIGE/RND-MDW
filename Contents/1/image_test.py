@@ -2,7 +2,7 @@ from PIL import Image
 
 color_list = []
 
-im = Image.open("image.jpg")
+im = Image.open("/home/silolab_ksh/Desktop/RND-MDW/Contents/1/image.jpg")
 
 print(im.format, im.size, im.mode)
 w = im.width
@@ -25,5 +25,3 @@ for y in range(h-1, -1, -1):
     print("\n")
 
 print("-"*16)
-
-print(rgb_lst)
