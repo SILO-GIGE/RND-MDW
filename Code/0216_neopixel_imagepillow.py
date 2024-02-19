@@ -18,7 +18,7 @@ num_pixels = 256  # 16x16 픽셀 LED
 ORDER = neopixel.RGB
 
 # LED 초기화
-pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.2, auto_write=False, pixel_order=ORDER)
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.1, auto_write=False, pixel_order=ORDER)
 
 
 # 이미지 파일이 있는 디렉토리 경로
